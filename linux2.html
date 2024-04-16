@@ -36,23 +36,22 @@
         <h1><i class="fa fa-bars" aria-hidden="true"></i> Sommaire</h1>
         <div class="menu1">
           <button class="dropdown-btn button-64">
-           <span class="text">Introduction sur Système d'exploitation Linux<i class="fa fa-caret-down"></i></span>
+            <span class="text">Introduction sur Système d'exploitation Linux<i class="fa fa-caret-down"></i></span>
           </button>
           <div class="dropdown-container">
             <ul>
               <li><a href="intro.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
-              <li><a href="intro.html#doc"><i class="fa fa-book" aria-hidden="true"></i> Cours</a></li>
-              <li><a href="intro.html#qcm"><i class="fa fa-diamond" aria-hidden="true"></i> QCM</a></li>
+              <li><a href="intro.html#OBJ"><i class="fa fa-book" aria-hidden="true"></i> les objectis</a></li>
             </ul>
           </div>
           <button class="dropdown-btn button-64">
             <span class="text"> Historique Système d'exploitation Linux <i class="fa fa-caret-down"></i></span>
           </button>
           <div class="dropdown-container">
-            <li><a href="intro.html"><i class="fa fa-video-camera" aria-hidden="true">voir</i></a></li>
-              <li><a href="linux1.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
-              <li><a href="linux1.html#doc"><i class="fa fa-book" aria-hidden="true"></i> Cours</a></li>
-              <li><a href="linux1.html#qcm"><i class="fa fa-diamond" aria-hidden="true"></i> QCM</a></li>
+            <ul>
+              <li><a href="histoire.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
+              <li><a href="histoire.html#doc"><i class="fa fa-book" aria-hidden="true"></i> Cours</a></li>
+              <li><a href="histoire.html#qcm"><i class="fa fa-diamond" aria-hidden="true"></i> QCM</a></li>
             </ul>
           </div>
           <button class="dropdown-btn button-64">
@@ -60,9 +59,9 @@
           </button>
           <div class="dropdown-container">
             <ul>
-              <li><a href="linux2.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
-              <li><a href="linux2.html#doc"><i class="fa fa-book" aria-hidden="true"></i>Cours</a></li>
-              <li><a href="linux2.html#qcm"><i class="fa fa-diamond" aria-hidden="true"></i> QCM</a></li>
+              <li><a href="linux1.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
+              <li><a href="linux1.html#doc"><i class="fa fa-book" aria-hidden="true"></i>Cours</a></li>
+              <li><a href="linux1.html#qcm"><i class="fa fa-diamond" aria-hidden="true"></i> QCM</a></li>
             </ul>
           </div>
           <button class="dropdown-btn button-64">
@@ -70,9 +69,9 @@
           </button>
           <div class="dropdown-container">
             <ul>
-              <li><a href="linux3.html#video"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
-              <li><a href="linux3.html#doc"><i class="fa fa-book" aria-hidden="true"></i> Documentation</a></li>
-              <li><a href="linux3.html"><i class="fa fa-diamond" aria-hidden="true"></i> QCM </a></li>
+              <li><a href="linux2.html#video"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
+              <li><a href="linux2html#doc"><i class="fa fa-book" aria-hidden="true"></i> Cours</a></li>
+              <li><a href="linux2.html#qcm"> <i class="fa fa-diamond" aria-hidden="true"></i> QCM </a></li>
             </ul>
           </div>
         </div>
@@ -80,66 +79,110 @@
     </aside>
     <article>
       <div class="Intro">
-        <h1>Prise en main du Système Linux </h1>
-        <p>
-          Bienvenue dans l'univers des réseaux! Découvrez les trois premières couches du modèle OSI: la couche
-          <b>Application</b> 📱 qui est votre porte d'entrée aux applications,la couche <b>presentation</b> 💻
-          responsable de la manière dont les données sont présentées,et la couche <b>Session</b> 🤝 qui est
-          l'architecte des
-          connexions durables.Prêt à plonger dans cet univers captivant? <br>
-          <center>Let's go! 🌍💻</center>
-        </p>
+    
+        <h1>Prise en main du système Linux</h1>
+        <center>
+       <p>Le système Linux est un système d'exploitation basé sur le noyau Linux, qui offre une plateforme sécurisée et flexible pour divers appareils, des ordinateurs personnels aux serveurs en passant par les appareils mobiles</p> 
+       </center>
       </div>
       <section class="contenu">
         <h2 id="video">La vidéo :</h2>
         <center>
           <video class="video" controls>
-            <source src="video/video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+            <source src="img/lastvd.mp4" type="video/mp4">
           </video>
         </center>
-        <H2 id="doc">La documentation :</H2>
+        <H2 id="doc">Le cours:</H2>
+       <br>
+        <H3>1.	Arborescence du système de fichiers :</H3><br>
+        <center>
+          <div class="card carte">
+            <img src="img/Cap.png" alt="" class="card-img-top image" style="width: 500px; height: 200px;"muted autoplay loop class="image"></div>
+          </center>
         <p>
-          Explorez les rouages essentiels qui permettent le transfert efficace des données à travers les différentes
-          couches du modèle OSI. Découvrez rapidement les rôles cruciaux de Transport, Réseau, Liaison de Données et
-          Physique pour comprendre le fonctionnement fondamental qui sous-tend nos communications numériques.
-        </p>
-        <H3>4. Couche Transport</H3>
-        <p>
-          La couche Transport est responsable du transport efficace des données entre les dispositifs. Elle assure la
-          fiabilité des transmissions en gérant le contrôle de flux, la correction des erreurs et la séquence des
-          données. C'est comme un pilote de navire naviguant habilement à travers des eaux complexes pour garantir une
-          livraison sécurisée et rapide des informations.
-        </p>
-        <H3>3. Couche Réseau</H3>
-        <p>
-          La couche Réseau est chargée du cheminement des données à travers le réseau. Elle utilise des adresses
-          logiques pour déterminer le meilleur itinéraire entre l'émetteur et le destinataire, facilitant ainsi une
-          communication fluide à travers des réseaux complexes et interconnectés.
-        </p>
-        <H3>2. Couche Liaison de Données</H3>
-        <p>
-          La couche Liaison de Données gère la fiabilité de la transmission entre dispositifs connectés directement.
-          Elle divise les données en trames, détecte et corrige les erreurs, et coordonne l'accès au support physique.
-          Elle est souvent comparée à un maillon solide assurant une communication sans faille entre deux appareils.
-        </p>
-        <H3>1. Couche Physique </H3>
-        <p>
-          La couche Physique définit les aspects matériels de la transmission des données. Elle s'occupe des
-          caractéristiques physiques du support de transmission, comme les câbles et les signaux électriques,
-          garantissant une communication fiable entre les dispositifs connectés à travers le réseau. C'est le fondement
-          physique qui permet le transfert des bits entre les appareils.
+          -	Structure hiérarchique des fichiers et répertoires<br>
+-	La racine est dénoté par `/`<br>
+-	Les chemins sont séparés par `/`<br>
+-	Les noms des objets sont des séquences de maximum 255 caractères sensibles à la casse.<br>
+-	Il est préférable de ne pas utiliser les caractères : ?, *, &. `, ´,“,<,><br>
+-	Il convient de se limiter à: - A à Z , a à z, 0 à 9, le caractère de soulignement ` _`, le tiret `-` et le point `.`<br>
+-	Le point ( . ) comme premier caractère d‟un nom signifie un fichier caché.<br>
+-	Éviter des noms contenant des caractères accentués ou des blancs.<br>
+-	Le point ( . ) ne sépare pas forcement le nom de son extension 
         </p>
 
+      <br>
+      <style>
+        h3 {
+          color: rgb(3, 0, 1);
+        }
+        .cadre {
+          border: 1px solid rgb(234, 24, 24);
+          padding: 10px;
+          width: fit-content;
+        }
+        .blue-text:before {
+          content: attr(data-text);
+          color: blue;
+        }
+      </style>
+      
+        <style>
+          h3 {
+            color: rgb(3, 0, 1);
+          }
+          .cadre {
+            border: 1px solid rgb(234, 24, 24);
+            padding: 10px;
+            width: fit-content;
+          }
+          .blue-text:before {
+            content: attr(data-text);
+            color: blue;
+          }
+        </style>
+        </head>
+        <body>
+        
+          <H3>1.	Les principaux répertoires : </H3>
+        <center>
+        <p class="cadre">
+          - <span class="blue-text" data-text="/boot "></span> : contient les fichiers nécessaires au démarrage du système.<br>
+          - <span class="blue-text" data-text="	/bin "></span> : contient les commandes de base (binaire)<br>
+          - <span class="blue-text" data-text="	/sbin "></span> : contient les commandes du super utilisateur (administrateur)<br>
+          - <span class="blue-text" data-text="	/usr/bin, /usr/sbin"></span> : contient des fichiers binaires<br>
+          - <span class="blue-text" data-text="	/etc "></span> : contient les fichiers de configuration du système et des services<br>
+          - <span class="blue-text" data-text="	/home "></span> : contient les répertoires personnels des utilisateurs simples<br>
+          - <span class="blue-text" data-text="	/root "></span> : contient le répertoire personnel de l‟administrateur.<br>
+          - <span class="blue-text" data-text="	/usr "></span> : : contient le reste des programmes du système et les logiciels.<br>
+          - <span class="blue-text" data-text="	/dev"></span> : contient les noms périphériques.<br>
+          - <span class="blue-text" data-text="	/mnt/ , /media/ "></span> contient les points de montage d`autres systèmes de fichiers.<br>
+          - <span class="blue-text" data-text="	/proc "></span> est un répertoire virtuel, n'a pas d'existence sur disque, contient les informations sur les processus<br>
+        </p>
+      </center>
+      <style>
+        h3 {
+          color: rgb(3, 0, 1);
+        }
+        .cadre {
+          border: 1px solid rgb(234, 24, 24);
+          padding: 10px;
+          width: fit-content;
+        }
+        .blue-text:before {
+          content: attr(data-text);
+          color: blue;
+        }
+      </style>
+      
+    
         <H2 id="qcm">Exercice du chapitre :</H2>
         <div style="width:100%; height:300px; overflow:hidden">
         <iframe allowfullscreen src="https://ladigitale.dev/digiquiz/q/65a19ef9eff2f/" frameborder="0" width="100%" height="500" style="overflow:hidden; background:#fff"></iframe></div>
       </section>
       <div class="navigation">
         <a href="linux1.html" class="swipp"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
-          Précédant</a>
-
-      </div>
+          Précédant</a>      </div>
       <div class="afer-Footer">
 
       </div>
@@ -175,7 +218,7 @@
         <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
 
       </ul>
-      <p>&copy; 2024 AI Genius Tous droits réservés</p>
+      <p>&copy; 2024 AI Genius  Tous droits réservés</p>
     </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
